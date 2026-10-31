@@ -278,11 +278,7 @@ function operator(pro) {
       //   .concat(firstName, usflag, nNames, findKeyValue, retainKey, ikey, ikeys)
       //   .filter((k) => k !== "");
       // e.name = keyover.join(FGF);
-      keyover = keyover
-        .concat(firstName, usflag, nNames, findKeyValue + "-" + ens)
-        .filter((k) => k !== "");
-      
-      e.name = keyover.join(FGF);
+      e.name = usflag + FGF + ens;
     } else {
       if (nm) {
         e.name = FNAME + FGF + e.name;
